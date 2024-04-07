@@ -9,7 +9,7 @@
 public class Movie
 {
     // instance variables - replace the example below with your own
-    private String Essex;
+    private String Essex; //switched name from 'name' to 'Essex'
     private String studio;
     private double rating;
     private int    year;
@@ -17,9 +17,9 @@ public class Movie
     /**
      * Constructor for objects of class Movie
      */
-    public Movie(String Essex, String studio, double rating, int year)
+    public Movie(String Essex, String studio, double rating, int year) //switched name from 'name' to 'Essex'
     {
-        this.Essex     = Essex;
+        this.Essex     = Essex; //switched name from 'name' to 'Essex'
         this.studio   = studio;
         this.rating   = rating;
         this.year     = year;
