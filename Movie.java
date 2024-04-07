@@ -9,7 +9,7 @@
 public class Movie
 {
     // instance variables - replace the example below with your own
-    private String name;
+    private String Essex;
     private String studio;
     private double rating;
     private int    year;
@@ -17,22 +17,22 @@ public class Movie
     /**
      * Constructor for objects of class Movie
      */
-    public Movie(String name, String studio, double rating, int year)
+    public Movie(String Essex, String studio, double rating, int year)
     {
-        this.name     = name;
+        this.Essex     = Essex;
         this.studio   = studio;
         this.rating   = rating;
         this.year     = year;
     } // Movie
     
-    public String getName()     { return this.name;};
+    public String getName()     { return this.Essex;};
     public String getStudio()   { return this.studio;};
     public double getRating()   { return this.rating;};
     public int    getYear()     { return this.year; };
     
     public String toString()
     {
-        String s = " * Movie: "+this.name+"  Studio: :" +this.studio + " IMDB rating :"+this.rating;
+        String s = " * Movie: "+this.Essex+"  Studio: :" +this.studio + " IMDB rating :"+this.rating;
         return s;
         
     } // end toString();
